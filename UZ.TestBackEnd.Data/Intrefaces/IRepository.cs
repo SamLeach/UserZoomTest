@@ -9,7 +9,7 @@ namespace UZ.TestBackEnd.Data.Intrefaces
 {
     public interface IRepository<T> where T : class
     {
-         T Get<T>(T t);
-         T GetAll<T>();
+         T Get(T t);
+         T GetAll();
     }
 }

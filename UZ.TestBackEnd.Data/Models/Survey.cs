@@ -8,5 +8,10 @@ namespace UZ.TestBackEnd.Data.Models
 {
     public class Survey
     {
+        public string StudyTitle { get; set; }
+        public string SurveyTitle { get; set; }
+        public string Completes { get; set; }
+        public string Needed { get; set; }
+        public string ParticipantsNeeded { get; set; }
     }
 }

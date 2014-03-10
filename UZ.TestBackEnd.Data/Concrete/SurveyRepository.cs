@@ -8,7 +8,7 @@ using UZ.TestBackEnd.Data.Models;
 
 namespace UZ.TestBackEnd.Data.Concrete
 {
-    public class SqlRepository
+    public class SurveyRepository
     {
         public Survey Get(Survey survey)
         {

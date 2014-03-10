@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UZ.TestBackEnd.Data
+namespace UZ.TestBackEnd.Data.Models
 {
-    public class SqlRepository
+    public class Task
     {
     }
 }

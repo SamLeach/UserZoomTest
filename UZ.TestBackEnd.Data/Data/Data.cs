@@ -14,6 +14,5 @@ namespace UZ.TestBackEnd.Data.Data
         {
             this.connectionString = connectionString;
         }
-
     }
 }
