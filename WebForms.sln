@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebForms", "http://localhost:1163", "{1DC5BDD3-35D1-4B69-A371-4A7D0925B748}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_1163"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\WebForms\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_1163\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_1163"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\WebForms\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_1163\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\..\..\..\WebForms\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UZ.TestBackEnd.Data", "UZ.TestBackEnd.Data\UZ.TestBackEnd.Data.csproj", "{853F4E05-3A45-4EC2-9415-E14E776ED7C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UZ.testBackEnd.Tests", "UZ.testBackEnd.Tests\UZ.testBackEnd.Tests.csproj", "{D1B67723-D223-46F2-846E-41AF25D922AC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1DC5BDD3-35D1-4B69-A371-4A7D0925B748}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DC5BDD3-35D1-4B69-A371-4A7D0925B748}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DC5BDD3-35D1-4B69-A371-4A7D0925B748}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DC5BDD3-35D1-4B69-A371-4A7D0925B748}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{853F4E05-3A45-4EC2-9415-E14E776ED7C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{853F4E05-3A45-4EC2-9415-E14E776ED7C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{853F4E05-3A45-4EC2-9415-E14E776ED7C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{853F4E05-3A45-4EC2-9415-E14E776ED7C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1B67723-D223-46F2-846E-41AF25D922AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1B67723-D223-46F2-846E-41AF25D922AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1B67723-D223-46F2-846E-41AF25D922AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1B67723-D223-46F2-846E-41AF25D922AC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
