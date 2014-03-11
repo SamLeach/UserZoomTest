@@ -32,6 +32,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -39,16 +40,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Concrete\Repository.cs" />
     <Compile Include="Concrete\SqlQueries.cs" />
     <Compile Include="Concrete\SurveyRepository.cs" />
     <Compile Include="Concrete\TaskRepository.cs" />
-    <Compile Include="Data\Data.cs" />
+    <Compile Include="Data\DataConnection.cs" />
+    <Compile Include="Data\SqlCaller.cs" />
+    <Compile Include="Data\XmlService.cs" />
     <Compile Include="Intrefaces\IRepository.cs" />
     <Compile Include="Models\Survey.cs" />
     <Compile Include="Models\Task.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

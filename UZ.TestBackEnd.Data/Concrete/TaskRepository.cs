@@ -3,25 +3,23 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
+using UZ.TestBackEnd.Data.Data;
 using UZ.TestBackEnd.Data.Intrefaces;
 
 namespace UZ.TestBackEnd.Data.Concrete
 {
-    public class TaskRepository : IRepository<Task>
+    public class TaskRepository : Repository<Task>
     {
-        public Task Get(Task task)
+        /// <summary>
+        /// Get total number of tasks
+        /// </summary>
+        /// <returns>The data</returns>
+        public XDocument GetTotalNumberOfTasks()
         {
-            throw new NotImplementedException();
-        }
-
-        public Task GetAll()
-        {
-            throw new NotImplementedException();
-        }
-
-        public int GetTotalNumberOfTasks()
-        {
-            return 0;
+            string sql = sqlQueries.GetTotalTasks();
+            XDocument xDocument = xmlService.GetXDocument(sql);
+            return xDocument;
         }
     }
 }

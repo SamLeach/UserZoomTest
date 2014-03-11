@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio Express 2013 for Web
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UZ.TestBackEnd.Data", "UZ.TestBackEnd.Data\UZ.TestBackEnd.Data.csproj", "{853F4E05-3A45-4EC2-9415-E14E776ED7C9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UZ.testBackEnd.Tests", "UZ.testBackEnd.Tests\UZ.testBackEnd.Tests.csproj", "{D1B67723-D223-46F2-846E-41AF25D922AC}"
@@ -24,9 +26,32 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebForms", "WebForms\", "{3
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "1969"
+		SlnRelativePath = "WebForms\"
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UZ.TestBackEnd.Services", "UZ.TestBackEnd.Services\UZ.TestBackEnd.Services.csproj", "{B9F6F58E-E71F-46EC-8F70-A62787EEBE6B}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebFormsRefactored", "http://localhost:51405", "{C1DA109A-DB07-49D3-952A-8856856C265F}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{b9f6f58e-e71f-46ec-8f70-a62787eebe6b}|UZ.TestBackEnd.Services.dll;{853F4E05-3A45-4EC2-9415-E14E776ED7C9}|UZ.TestBackEnd.Data.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_51405"
+		Debug.AspNetCompiler.PhysicalPath = "WebFormsRefactored\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51405\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_51405"
+		Release.AspNetCompiler.PhysicalPath = "WebFormsRefactored\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51405\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "WebFormsRefactored\"
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -50,6 +75,10 @@ Global
 		{B9F6F58E-E71F-46EC-8F70-A62787EEBE6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9F6F58E-E71F-46EC-8F70-A62787EEBE6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9F6F58E-E71F-46EC-8F70-A62787EEBE6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1DA109A-DB07-49D3-952A-8856856C265F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1DA109A-DB07-49D3-952A-8856856C265F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1DA109A-DB07-49D3-952A-8856856C265F}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1DA109A-DB07-49D3-952A-8856856C265F}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
